@@ -1,0 +1,33 @@
+[user]
+  name = Marcos Tapajos
+	email = tapajos@gmail.com
+	signingkey = 4FA1C873
+[push]
+  default = current
+[alias]
+  co = checkout
+  l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
+  lol = log --pretty=oneline --abbrev-commit --graph --decorate
+[apply]
+  whitespace = warn
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  ui = true
+[help]
+  autocorrect = 1
+[status]
+  submodule = 1
+[core]
+  editor = atom --wait
+	excludesfile = /Users/tapajos/.gitignore_global
+[rerere]
+  enabled = true
+[branch]
+  autosetuprebase = always
+
+[includeIf "gitdir:~/projects/FreeAgent/"]
+  path = ~/.gitconfig-freeagent
+[commit]
+	verbose = true

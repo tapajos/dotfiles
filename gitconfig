@@ -26,8 +26,7 @@
   enabled = true
 [branch]
   autosetuprebase = always
-
-[includeIf "gitdir:~/projects/FreeAgent/"]
-  path = ~/.gitconfig-freeagent
+[includeIf "gitdir:~/projects/Decisiv/"]
+  path = ~/.gitconfig-decisiv
 [commit]
 	verbose = true

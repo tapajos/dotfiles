@@ -1,7 +1,6 @@
-export TEXT_EDITOR="atom"
+export TEXT_EDITOR="code"
 export PROJECTS_PATH="$HOME/projects"
-export EDITOR="$TEXT_EDITOR -w"
-export GIT_EDITOR=$EDITOR
+export EDITOR="$TEXT_EDITOR --wait"
 export HISTCONTROL=ignoredups
 export LANG=pt_BR.UTF-8
 export LC_CTYPE=en_US.UTF-8

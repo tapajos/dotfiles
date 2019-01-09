@@ -20,7 +20,7 @@
 [status]
   submodule = 1
 [core]
-  editor = atom --wait
+	editor = code --wait
 	excludesfile = /Users/tapajos/.gitignore_global
 [rerere]
   enabled = true

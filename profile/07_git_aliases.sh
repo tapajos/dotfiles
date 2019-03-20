@@ -1,3 +1,4 @@
+alias __git_ps1="git branch 2>/dev/null | grep '*' | sed 's/* \(.*\)/(\1)/'"
 alias gbl="git branch"
 alias gb="git branch -a"
 alias gc="git commit -a"

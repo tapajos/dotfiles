@@ -1,2 +1,5 @@
 [user]
 	email = mtapajos@decisiv.com
+
+[init]
+	templatedir = ~/.git-decisiv-templates

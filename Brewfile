@@ -8,13 +8,17 @@ brew 'htop'
 brew 'bash-completion'
 brew 'bash-git-prompt'
 brew 'chruby'
+brew 'direnv'
 
+cask 'arq'
 cask 'google-chrome'
-cask 'atom'
 cask 'iterm2'
-cask 'skype'
 cask 'dropbox'
-
+cask '1password'
+cask 'postman'
+cask 'sequel-pro'
+cask 'tripmode'
+cask 'zoomus'
 
 mas 'Slack', id: 803453959
 mas 'XCode', id: 497799835
